@@ -1,3 +1,8 @@
+button:hover{
+background-color: orange;
+
+}
+
 body
 {
 	font-size: 16px;
@@ -25,32 +30,36 @@ font-family: Oxygen;
 }
 
 #heading{
-  font-size: 30px;
+  font-size: 25px;
+  font-weight: bold;
+margin-top: 20px;
   color: brown;
+  /*float: left;
+  clear: right;*/
+  margin-left: 0px;
 }
 
 .whyvote{
   color: black;
  /* margin-left: 10px;*/
  font-size: large;
-
+ float:center;
+ margin-top: 10%;
+ margin-left: 20px;
 
 }
- .leftstuff{
-/*display: flex;
-flex-wrap: wrap;
-justify-content: center;
-text-align-last: center;
+#leftstuff{
 
-*/
-display: flex;
+float: center;
+
+/*display: flex;
 flex-direction: column;
 justify-content: center;
-align-items: center;
+align-items: center;*/
 margin-left: 80px;
 background-color: grey;
 width: 33%;
-height :50vh;
+height :90vh;
 
 padding:;
 margin-top: 100px;
@@ -69,7 +78,7 @@ margin-top: 100px;
   from {left: 0px;}
   to {left: 200px;}
 }*/
-.leftstuff:hover
+#leftstuff:hover
 {
   transform: translateX(100px);
   transition : 2s;
@@ -84,25 +93,36 @@ margin-top: 100px;
 
 
  }*/
- .rightstuff{display: flex;
+ #rightstuff{/*display: flex;
 flex-direction: column;
 justify-content: center;
-align-items: center;
+align-items: center;*/
+
+
 margin-left: 30px;
+
 background-color: grey;
 width: 33%;
-height :50vh;
-margin-top: -350px;
+height :90vh;
+margin-top: -695px;
 padding:;
 /*margin-top: 100px;*/
 margin-left: 60%;
 
+
+
  }
- .rightstuff:hover
+ #rightstuff:hover
 {
   transform: translateY(100px);
   transition : 2s;
   background-color: blue;
+}
+.candidate{
+margin-top: 10%;
+font-size: large;
+flex-direction: center;
+margin-left: 20px
 }
 .navbar-brand{
 	padding-top: 25px;
